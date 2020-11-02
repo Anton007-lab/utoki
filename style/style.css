@@ -1,0 +1,105 @@
+@import "reset.css";
+@font-face {
+  font-family: "ArialBlack";
+  src: url("../fonts/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+    font-size: 10px;
+    background-color: #b3b3cc
+
+}
+canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  display: block;
+}
+a {
+  text-decoration: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  color: black;
+}
+a:hover {
+  color: #1F78FF;
+}
+.menu_grid {
+  display: grid;
+  grid-template-columns: repeat(6, [col] 1fr);
+  grid-template-rows: repeat(1, [row] auto);
+  grid-column-gap: 1em;
+  /* grid-row-gap: 5em; */
+  margin: 2em;
+  text-align: center;
+  font-size: 3em;
+
+    font-family: "ArialBlack";
+}
+p {
+  color: black;
+  font-family: "ArialBlack";
+  font-size: 20em;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+.uroki_time {
+  font-size: 4em;
+}
+.poloska {
+  background: #000;
+  width: 100px;
+  height: 2px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+.uroki {
+  text-align: center;
+  align-items: center;
+  border: 4px double black;
+    background: #b3d9ff;
+    padding: 10px;
+    width: 445px;
+    margin-left: auto;
+      margin-right: auto;
+      width:
+        font-family: "ArialBlack";
+}
+.urok_1 {
+  display: flex;
+  align-items: flex-end;
+  /* margin-left: auto;
+    margin-right: auto;
+    width: 6em */
+}
+.urok_2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.urok_3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.urok_4 {
+  display: flex;
+  align-items: flex-end;
+}
+.urok_5 {
+
+  display: flex;
+  align-items: flex-end;
+}
+  .urok_6 {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .uroki_text {
+    font-size: 5em
+  }
